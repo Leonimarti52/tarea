@@ -1,0 +1,26 @@
+[0.546s] Invoking command in '/home/leoni/robotica/practica2/src/eje2': PYTHONPATH=/home/leoni/robotica/practica2/build/eje2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/robotica/practica2/install/eje2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/eje2 build --build-base /home/leoni/robotica/practica2/build/eje2/build install --record /home/leoni/robotica/practica2/build/eje2/install.log --single-version-externally-managed install_data
+[0.683s] running egg_info
+[0.683s] writing ../../build/eje2/eje2.egg-info/PKG-INFO
+[0.684s] writing dependency_links to ../../build/eje2/eje2.egg-info/dependency_links.txt
+[0.684s] writing entry points to ../../build/eje2/eje2.egg-info/entry_points.txt
+[0.684s] writing requirements to ../../build/eje2/eje2.egg-info/requires.txt
+[0.684s] writing top-level names to ../../build/eje2/eje2.egg-info/top_level.txt
+[0.686s] reading manifest file '../../build/eje2/eje2.egg-info/SOURCES.txt'
+[0.687s] writing manifest file '../../build/eje2/eje2.egg-info/SOURCES.txt'
+[0.687s] running build
+[0.687s] running build_py
+[0.687s] copying eje2/nodo2.py -> /home/leoni/robotica/practica2/build/eje2/build/lib/eje2
+[0.688s] running install
+[0.688s] running install_lib
+[0.689s] copying /home/leoni/robotica/practica2/build/eje2/build/lib/eje2/nodo2.py -> /home/leoni/robotica/practica2/install/eje2/lib/python3.10/site-packages/eje2
+[0.690s] byte-compiling /home/leoni/robotica/practica2/install/eje2/lib/python3.10/site-packages/eje2/nodo2.py to nodo2.cpython-310.pyc
+[0.690s] running install_data
+[0.690s] running install_egg_info
+[0.692s] removing '/home/leoni/robotica/practica2/install/eje2/lib/python3.10/site-packages/eje2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.692s] Copying ../../build/eje2/eje2.egg-info to /home/leoni/robotica/practica2/install/eje2/lib/python3.10/site-packages/eje2-0.0.0-py3.10.egg-info
+[0.693s] running install_scripts
+[0.706s] Installing nodo1 script to /home/leoni/robotica/practica2/install/eje2/lib/eje2
+[0.706s] Installing nodo2 script to /home/leoni/robotica/practica2/install/eje2/lib/eje2
+[0.706s] Installing sub script to /home/leoni/robotica/practica2/install/eje2/lib/eje2
+[0.707s] writing list of installed files to '/home/leoni/robotica/practica2/build/eje2/install.log'
+[0.721s] Invoked command in '/home/leoni/robotica/practica2/src/eje2' returned '0': PYTHONPATH=/home/leoni/robotica/practica2/build/eje2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/robotica/practica2/install/eje2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/eje2 build --build-base /home/leoni/robotica/practica2/build/eje2/build install --record /home/leoni/robotica/practica2/build/eje2/install.log --single-version-externally-managed install_data

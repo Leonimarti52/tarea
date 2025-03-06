@@ -1,0 +1,5 @@
+[console_scripts]
+mi_listener = eje1.subpub:main
+mi_publicador = eje1.publi:main
+mi_subscriptor = eje1.sub:main
+

@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/eje1/eje1.egg-info/PKG-INFO
+writing dependency_links to ../../build/eje1/eje1.egg-info/dependency_links.txt
+writing entry points to ../../build/eje1/eje1.egg-info/entry_points.txt
+writing requirements to ../../build/eje1/eje1.egg-info/requires.txt
+writing top-level names to ../../build/eje1/eje1.egg-info/top_level.txt
+reading manifest file '../../build/eje1/eje1.egg-info/SOURCES.txt'
+writing manifest file '../../build/eje1/eje1.egg-info/SOURCES.txt'
+running build
+running build_py
+copying eje1/subpub.py -> /home/leoni/robotica/practica/build/eje1/build/lib/eje1
+running install
+running install_lib
+copying /home/leoni/robotica/practica/build/eje1/build/lib/eje1/subpub.py -> /home/leoni/robotica/practica/install/eje1/lib/python3.10/site-packages/eje1
+byte-compiling /home/leoni/robotica/practica/install/eje1/lib/python3.10/site-packages/eje1/subpub.py to subpub.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/leoni/robotica/practica/install/eje1/lib/python3.10/site-packages/eje1-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/eje1/eje1.egg-info to /home/leoni/robotica/practica/install/eje1/lib/python3.10/site-packages/eje1-0.0.0-py3.10.egg-info
+running install_scripts
+Installing mi_listener script to /home/leoni/robotica/practica/install/eje1/lib/eje1
+Installing mi_publicador script to /home/leoni/robotica/practica/install/eje1/lib/eje1
+Installing mi_subscriptor script to /home/leoni/robotica/practica/install/eje1/lib/eje1
+writing list of installed files to '/home/leoni/robotica/practica/build/eje1/install.log'

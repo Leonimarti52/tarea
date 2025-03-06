@@ -1,0 +1,34 @@
+running egg_info
+creating ../../build/eje1/eje1.egg-info
+writing ../../build/eje1/eje1.egg-info/PKG-INFO
+writing dependency_links to ../../build/eje1/eje1.egg-info/dependency_links.txt
+writing entry points to ../../build/eje1/eje1.egg-info/entry_points.txt
+writing requirements to ../../build/eje1/eje1.egg-info/requires.txt
+writing top-level names to ../../build/eje1/eje1.egg-info/top_level.txt
+writing manifest file '../../build/eje1/eje1.egg-info/SOURCES.txt'
+reading manifest file '../../build/eje1/eje1.egg-info/SOURCES.txt'
+writing manifest file '../../build/eje1/eje1.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/leoni/robotica/practica/build/eje1/build
+creating /home/leoni/robotica/practica/build/eje1/build/lib
+creating /home/leoni/robotica/practica/build/eje1/build/lib/eje1
+copying eje1/publi.py -> /home/leoni/robotica/practica/build/eje1/build/lib/eje1
+copying eje1/__init__.py -> /home/leoni/robotica/practica/build/eje1/build/lib/eje1
+running install
+running install_lib
+creating /home/leoni/robotica/practica/install/eje1/lib/python3.10/site-packages/eje1
+copying /home/leoni/robotica/practica/build/eje1/build/lib/eje1/publi.py -> /home/leoni/robotica/practica/install/eje1/lib/python3.10/site-packages/eje1
+copying /home/leoni/robotica/practica/build/eje1/build/lib/eje1/__init__.py -> /home/leoni/robotica/practica/install/eje1/lib/python3.10/site-packages/eje1
+byte-compiling /home/leoni/robotica/practica/install/eje1/lib/python3.10/site-packages/eje1/publi.py to publi.cpython-310.pyc
+byte-compiling /home/leoni/robotica/practica/install/eje1/lib/python3.10/site-packages/eje1/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/leoni/robotica/practica/install/eje1/share/ament_index
+creating /home/leoni/robotica/practica/install/eje1/share/ament_index/resource_index
+creating /home/leoni/robotica/practica/install/eje1/share/ament_index/resource_index/packages
+copying resource/eje1 -> /home/leoni/robotica/practica/install/eje1/share/ament_index/resource_index/packages
+copying package.xml -> /home/leoni/robotica/practica/install/eje1/share/eje1
+running install_egg_info
+Copying ../../build/eje1/eje1.egg-info to /home/leoni/robotica/practica/install/eje1/lib/python3.10/site-packages/eje1-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/leoni/robotica/practica/build/eje1/install.log'

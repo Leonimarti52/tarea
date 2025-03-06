@@ -1,0 +1,5 @@
+[console_scripts]
+nodo1 = eje2.nodo1:main
+nodo2 = eje2.nodo2:main
+sub = eje2.sub:main
+
