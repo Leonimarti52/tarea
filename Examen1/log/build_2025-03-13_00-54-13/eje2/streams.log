@@ -1,0 +1,25 @@
+[0.660s] Invoking command in '/home/leoni/robotica/tarea/Examen1/src/eje2': PYTHONPATH=/home/leoni/robotica/tarea/Examen1/build/eje2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/robotica/tarea/Examen1/install/eje2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/eje2 build --build-base /home/leoni/robotica/tarea/Examen1/build/eje2/build install --record /home/leoni/robotica/tarea/Examen1/build/eje2/install.log --single-version-externally-managed install_data
+[0.909s] running egg_info
+[0.910s] writing ../../build/eje2/eje2.egg-info/PKG-INFO
+[0.910s] writing dependency_links to ../../build/eje2/eje2.egg-info/dependency_links.txt
+[0.911s] writing entry points to ../../build/eje2/eje2.egg-info/entry_points.txt
+[0.911s] writing requirements to ../../build/eje2/eje2.egg-info/requires.txt
+[0.911s] writing top-level names to ../../build/eje2/eje2.egg-info/top_level.txt
+[0.913s] reading manifest file '../../build/eje2/eje2.egg-info/SOURCES.txt'
+[0.914s] writing manifest file '../../build/eje2/eje2.egg-info/SOURCES.txt'
+[0.914s] running build
+[0.914s] running build_py
+[0.915s] running install
+[0.915s] running install_lib
+[0.916s] running install_data
+[0.916s] running install_egg_info
+[0.918s] removing '/home/leoni/robotica/tarea/Examen1/install/eje2/lib/python3.10/site-packages/eje2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.919s] Copying ../../build/eje2/eje2.egg-info to /home/leoni/robotica/tarea/Examen1/install/eje2/lib/python3.10/site-packages/eje2-0.0.0-py3.10.egg-info
+[0.920s] running install_scripts
+[0.940s] Installing pub1 script to /home/leoni/robotica/tarea/Examen1/install/eje2/lib/eje2
+[0.941s] Installing pub2 script to /home/leoni/robotica/tarea/Examen1/install/eje2/lib/eje2
+[0.941s] Installing pub3 script to /home/leoni/robotica/tarea/Examen1/install/eje2/lib/eje2
+[0.941s] Installing sub script to /home/leoni/robotica/tarea/Examen1/install/eje2/lib/eje2
+[0.941s] Installing sub_pub script to /home/leoni/robotica/tarea/Examen1/install/eje2/lib/eje2
+[0.941s] writing list of installed files to '/home/leoni/robotica/tarea/Examen1/build/eje2/install.log'
+[0.963s] Invoked command in '/home/leoni/robotica/tarea/Examen1/src/eje2' returned '0': PYTHONPATH=/home/leoni/robotica/tarea/Examen1/build/eje2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/robotica/tarea/Examen1/install/eje2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/eje2 build --build-base /home/leoni/robotica/tarea/Examen1/build/eje2/build install --record /home/leoni/robotica/tarea/Examen1/build/eje2/install.log --single-version-externally-managed install_data

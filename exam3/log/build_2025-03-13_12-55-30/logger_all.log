@@ -1,0 +1,250 @@
+[0.258s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.258s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f64e48b2410>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f64e48b1f00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f64e48b1f00>>)
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.433s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/leoni/robotica/tarea/exam3'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/cliente) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/cliente) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/cliente) by extension 'ignore_ament_install'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/cliente) by extensions ['colcon_pkg']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/cliente) by extension 'colcon_pkg'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/cliente) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/cliente) by extension 'colcon_meta'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/cliente) by extensions ['ros']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/cliente) by extension 'ros'
+[0.449s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cliente' with type 'ros.ament_python' and name 'cliente'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface) by extension 'ros'
+[0.450s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interface' with type 'ros.ament_cmake' and name 'interface'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/servidor) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/servidor) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/servidor) by extension 'ignore_ament_install'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/servidor) by extensions ['colcon_pkg']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/servidor) by extension 'colcon_pkg'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/servidor) by extensions ['colcon_meta']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/servidor) by extension 'colcon_meta'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/servidor) by extensions ['ros']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/servidor) by extension 'ros'
+[0.451s] DEBUG:colcon.colcon_core.package_identification:Package 'src/servidor' with type 'ros.ament_python' and name 'servidor'
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.477s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.477s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.480s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
+[0.484s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'cliente' build argument 'cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'cliente' build argument 'cmake_target' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'cliente' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'cliente' build argument 'cmake_clean_cache' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'cliente' build argument 'cmake_clean_first' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'cliente' build argument 'cmake_force_configure' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'cliente' build argument 'ament_cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'cliente' build argument 'catkin_cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'cliente' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.529s] DEBUG:colcon.colcon_core.verb:Building package 'cliente' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leoni/robotica/tarea/exam3/build/cliente', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leoni/robotica/tarea/exam3/install/cliente', 'merge_install': False, 'path': '/home/leoni/robotica/tarea/exam3/src/cliente', 'symlink_install': False, 'test_result_base': None}
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'cmake_target' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.530s] DEBUG:colcon.colcon_core.verb:Building package 'interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leoni/robotica/tarea/exam3/build/interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leoni/robotica/tarea/exam3/install/interface', 'merge_install': False, 'path': '/home/leoni/robotica/tarea/exam3/src/interface', 'symlink_install': False, 'test_result_base': None}
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'servidor' build argument 'cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'servidor' build argument 'cmake_target' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'servidor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'servidor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'servidor' build argument 'cmake_clean_first' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'servidor' build argument 'cmake_force_configure' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'servidor' build argument 'ament_cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'servidor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'servidor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.530s] DEBUG:colcon.colcon_core.verb:Building package 'servidor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leoni/robotica/tarea/exam3/build/servidor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leoni/robotica/tarea/exam3/install/servidor', 'merge_install': False, 'path': '/home/leoni/robotica/tarea/exam3/src/servidor', 'symlink_install': False, 'test_result_base': None}
+[0.530s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.532s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.532s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leoni/robotica/tarea/exam3/src/cliente' with build type 'ament_python'
+[0.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('cliente', 'ament_prefix_path')
+[0.535s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/robotica/tarea/exam3/install/cliente/share/cliente/hook/ament_prefix_path.ps1'
+[0.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/robotica/tarea/exam3/install/cliente/share/cliente/hook/ament_prefix_path.dsv'
+[0.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/robotica/tarea/exam3/install/cliente/share/cliente/hook/ament_prefix_path.sh'
+[0.538s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.538s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.542s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leoni/robotica/tarea/exam3/src/interface' with build type 'ament_cmake'
+[0.542s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leoni/robotica/tarea/exam3/src/interface'
+[0.542s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.542s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.546s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leoni/robotica/tarea/exam3/src/servidor' with build type 'ament_python'
+[0.546s] Level 1:colcon.colcon_core.shell:create_environment_hook('servidor', 'ament_prefix_path')
+[0.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/robotica/tarea/exam3/install/servidor/share/servidor/hook/ament_prefix_path.ps1'
+[0.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/robotica/tarea/exam3/install/servidor/share/servidor/hook/ament_prefix_path.dsv'
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/robotica/tarea/exam3/install/servidor/share/servidor/hook/ament_prefix_path.sh'
+[0.550s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.550s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.788s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leoni/robotica/tarea/exam3/src/cliente'
+[0.788s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.789s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/robotica/tarea/exam3/build/interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leoni/robotica/tarea/exam3/build/interface -- -j16 -l16
+[1.130s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leoni/robotica/tarea/exam3/src/servidor'
+[1.130s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.130s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/robotica/tarea/exam3/build/interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leoni/robotica/tarea/exam3/build/interface -- -j16 -l16
+[1.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/robotica/tarea/exam3/build/interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leoni/robotica/tarea/exam3/build/interface
+[1.286s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interface)
+[1.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/robotica/tarea/exam3/build/interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leoni/robotica/tarea/exam3/build/interface
+[1.289s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/robotica/tarea/exam3/install/interface' for CMake module files
+[1.290s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/robotica/tarea/exam3/install/interface' for CMake config files
+[1.290s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface', 'cmake_prefix_path')
+[1.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/robotica/tarea/exam3/install/interface/share/interface/hook/cmake_prefix_path.ps1'
+[1.291s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/robotica/tarea/exam3/install/interface/share/interface/hook/cmake_prefix_path.dsv'
+[1.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/robotica/tarea/exam3/install/interface/share/interface/hook/cmake_prefix_path.sh'
+[1.292s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/robotica/tarea/exam3/install/interface/lib'
+[1.292s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface', 'ld_library_path_lib')
+[1.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/robotica/tarea/exam3/install/interface/share/interface/hook/ld_library_path_lib.ps1'
+[1.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/robotica/tarea/exam3/install/interface/share/interface/hook/ld_library_path_lib.dsv'
+[1.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/robotica/tarea/exam3/install/interface/share/interface/hook/ld_library_path_lib.sh'
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/robotica/tarea/exam3/install/interface/bin'
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/robotica/tarea/exam3/install/interface/lib/pkgconfig/interface.pc'
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/robotica/tarea/exam3/install/interface/lib/python3.10/site-packages'
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/robotica/tarea/exam3/install/interface/bin'
+[1.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/robotica/tarea/exam3/install/interface/share/interface/package.ps1'
+[1.295s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/robotica/tarea/exam3/install/interface/share/interface/package.dsv'
+[1.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/robotica/tarea/exam3/install/interface/share/interface/package.sh'
+[1.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/robotica/tarea/exam3/install/interface/share/interface/package.bash'
+[1.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/robotica/tarea/exam3/install/interface/share/interface/package.zsh'
+[1.298s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/robotica/tarea/exam3/install/interface/share/colcon-core/packages/interface)
+[1.299s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interface)
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/robotica/tarea/exam3/install/interface' for CMake module files
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/robotica/tarea/exam3/install/interface' for CMake config files
+[1.300s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface', 'cmake_prefix_path')
+[1.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/robotica/tarea/exam3/install/interface/share/interface/hook/cmake_prefix_path.ps1'
+[1.301s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/robotica/tarea/exam3/install/interface/share/interface/hook/cmake_prefix_path.dsv'
+[1.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/robotica/tarea/exam3/install/interface/share/interface/hook/cmake_prefix_path.sh'
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/robotica/tarea/exam3/install/interface/lib'
+[1.301s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface', 'ld_library_path_lib')
+[1.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/robotica/tarea/exam3/install/interface/share/interface/hook/ld_library_path_lib.ps1'
+[1.302s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/robotica/tarea/exam3/install/interface/share/interface/hook/ld_library_path_lib.dsv'
+[1.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/robotica/tarea/exam3/install/interface/share/interface/hook/ld_library_path_lib.sh'
+[1.303s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/robotica/tarea/exam3/install/interface/bin'
+[1.303s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/robotica/tarea/exam3/install/interface/lib/pkgconfig/interface.pc'
+[1.303s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/robotica/tarea/exam3/install/interface/lib/python3.10/site-packages'
+[1.304s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/robotica/tarea/exam3/install/interface/bin'
+[1.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/robotica/tarea/exam3/install/interface/share/interface/package.ps1'
+[1.304s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/robotica/tarea/exam3/install/interface/share/interface/package.dsv'
+[1.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/robotica/tarea/exam3/install/interface/share/interface/package.sh'
+[1.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/robotica/tarea/exam3/install/interface/share/interface/package.bash'
+[1.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/robotica/tarea/exam3/install/interface/share/interface/package.zsh'
+[1.306s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/robotica/tarea/exam3/install/interface/share/colcon-core/packages/interface)
+[1.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/robotica/tarea/exam3/src/servidor': PYTHONPATH=/home/leoni/robotica/tarea/exam3/build/servidor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/robotica/tarea/exam3/install/servidor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servidor build --build-base /home/leoni/robotica/tarea/exam3/build/servidor/build install --record /home/leoni/robotica/tarea/exam3/build/servidor/install.log --single-version-externally-managed install_data
+[1.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/robotica/tarea/exam3/src/cliente': PYTHONPATH=/home/leoni/robotica/tarea/exam3/build/cliente/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/robotica/tarea/exam3/install/cliente/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cliente build --build-base /home/leoni/robotica/tarea/exam3/build/cliente/build install --record /home/leoni/robotica/tarea/exam3/build/cliente/install.log --single-version-externally-managed install_data
+[1.794s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/robotica/tarea/exam3/install/servidor' for CMake module files
+[1.796s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/robotica/tarea/exam3/src/servidor' returned '0': PYTHONPATH=/home/leoni/robotica/tarea/exam3/build/servidor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/robotica/tarea/exam3/install/servidor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servidor build --build-base /home/leoni/robotica/tarea/exam3/build/servidor/build install --record /home/leoni/robotica/tarea/exam3/build/servidor/install.log --single-version-externally-managed install_data
+[1.796s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/robotica/tarea/exam3/install/servidor' for CMake config files
+[1.797s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/robotica/tarea/exam3/install/servidor/lib'
+[1.797s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/robotica/tarea/exam3/install/servidor/bin'
+[1.797s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/robotica/tarea/exam3/install/servidor/lib/pkgconfig/servidor.pc'
+[1.797s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/robotica/tarea/exam3/install/servidor/lib/python3.10/site-packages'
+[1.798s] Level 1:colcon.colcon_core.shell:create_environment_hook('servidor', 'pythonpath')
+[1.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/robotica/tarea/exam3/install/servidor/share/servidor/hook/pythonpath.ps1'
+[1.798s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/robotica/tarea/exam3/install/servidor/share/servidor/hook/pythonpath.dsv'
+[1.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/robotica/tarea/exam3/install/servidor/share/servidor/hook/pythonpath.sh'
+[1.799s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/robotica/tarea/exam3/install/servidor/bin'
+[1.800s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(servidor)
+[1.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/robotica/tarea/exam3/install/servidor/share/servidor/package.ps1'
+[1.801s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/robotica/tarea/exam3/install/servidor/share/servidor/package.dsv'
+[1.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/robotica/tarea/exam3/install/servidor/share/servidor/package.sh'
+[1.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/robotica/tarea/exam3/install/servidor/share/servidor/package.bash'
+[1.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/robotica/tarea/exam3/install/servidor/share/servidor/package.zsh'
+[1.802s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/robotica/tarea/exam3/install/servidor/share/colcon-core/packages/servidor)
+[1.807s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/robotica/tarea/exam3/install/cliente' for CMake module files
+[1.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/robotica/tarea/exam3/src/cliente' returned '0': PYTHONPATH=/home/leoni/robotica/tarea/exam3/build/cliente/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/robotica/tarea/exam3/install/cliente/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cliente build --build-base /home/leoni/robotica/tarea/exam3/build/cliente/build install --record /home/leoni/robotica/tarea/exam3/build/cliente/install.log --single-version-externally-managed install_data
+[1.808s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/robotica/tarea/exam3/install/cliente' for CMake config files
+[1.809s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/robotica/tarea/exam3/install/cliente/lib'
+[1.809s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/robotica/tarea/exam3/install/cliente/bin'
+[1.809s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/robotica/tarea/exam3/install/cliente/lib/pkgconfig/cliente.pc'
+[1.809s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/robotica/tarea/exam3/install/cliente/lib/python3.10/site-packages'
+[1.809s] Level 1:colcon.colcon_core.shell:create_environment_hook('cliente', 'pythonpath')
+[1.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/robotica/tarea/exam3/install/cliente/share/cliente/hook/pythonpath.ps1'
+[1.810s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/robotica/tarea/exam3/install/cliente/share/cliente/hook/pythonpath.dsv'
+[1.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/robotica/tarea/exam3/install/cliente/share/cliente/hook/pythonpath.sh'
+[1.811s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/robotica/tarea/exam3/install/cliente/bin'
+[1.811s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cliente)
+[1.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/robotica/tarea/exam3/install/cliente/share/cliente/package.ps1'
+[1.812s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/robotica/tarea/exam3/install/cliente/share/cliente/package.dsv'
+[1.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/robotica/tarea/exam3/install/cliente/share/cliente/package.sh'
+[1.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/robotica/tarea/exam3/install/cliente/share/cliente/package.bash'
+[1.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/robotica/tarea/exam3/install/cliente/share/cliente/package.zsh'
+[1.814s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/robotica/tarea/exam3/install/cliente/share/colcon-core/packages/cliente)
+[1.814s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.815s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.816s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.816s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.978s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.978s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.978s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.978s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.980s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[1.980s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.981s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leoni/robotica/tarea/exam3/install/local_setup.ps1'
+[1.982s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leoni/robotica/tarea/exam3/install/_local_setup_util_ps1.py'
+[1.983s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leoni/robotica/tarea/exam3/install/setup.ps1'
+[1.984s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leoni/robotica/tarea/exam3/install/local_setup.sh'
+[1.985s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leoni/robotica/tarea/exam3/install/_local_setup_util_sh.py'
+[1.985s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leoni/robotica/tarea/exam3/install/setup.sh'
+[1.986s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leoni/robotica/tarea/exam3/install/local_setup.bash'
+[1.986s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leoni/robotica/tarea/exam3/install/setup.bash'
+[1.987s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leoni/robotica/tarea/exam3/install/local_setup.zsh'
+[1.987s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leoni/robotica/tarea/exam3/install/setup.zsh'

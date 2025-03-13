@@ -1,0 +1,6 @@
+{
+  "package_name": "interface",
+  "non_idl_tuples": [
+    "/home/leoni/robotica/tarea/exam3/src/interface:srv/Angle.srv"
+  ]
+}

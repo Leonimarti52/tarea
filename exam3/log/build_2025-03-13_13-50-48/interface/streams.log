@@ -1,0 +1,151 @@
+[0.219s] Invoking command in '/home/leoni/robotica/tarea/exam3/build/interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leoni/robotica/tarea/exam3/build/interface -- -j16 -l16
+[0.348s] [  3%] Built target interface__cpp
+[0.351s] [ 12%] Built target interface__rosidl_generator_c
+[0.368s] [ 12%] Built target ament_cmake_python_copy_interface
+[0.380s] [ 29%] Built target interface__rosidl_typesupport_fastrtps_cpp
+[0.381s] [ 38%] Built target interface__rosidl_typesupport_introspection_cpp
+[0.381s] [ 41%] Built target interface__rosidl_typesupport_cpp
+[0.382s] [ 51%] Built target interface__rosidl_typesupport_introspection_c
+[0.383s] [ 61%] Built target interface__rosidl_typesupport_c
+[0.386s] [ 70%] Built target interface__rosidl_typesupport_fastrtps_c
+[0.405s] [ 70%] Built target interface
+[0.422s] [ 74%] Built target interface__py
+[0.442s] [ 80%] Built target interface__rosidl_generator_py
+[0.468s] [ 87%] Built target interface__rosidl_typesupport_fastrtps_c__pyext
+[0.468s] [ 93%] Built target interface__rosidl_typesupport_introspection_c__pyext
+[0.468s] [100%] Built target interface__rosidl_typesupport_c__pyext
+[0.636s] running egg_info
+[0.636s] writing interface.egg-info/PKG-INFO
+[0.637s] writing dependency_links to interface.egg-info/dependency_links.txt
+[0.637s] writing top-level names to interface.egg-info/top_level.txt
+[0.640s] reading manifest file 'interface.egg-info/SOURCES.txt'
+[0.641s] writing manifest file 'interface.egg-info/SOURCES.txt'
+[0.665s] [100%] Built target ament_cmake_python_build_interface_egg
+[0.679s] Invoked command in '/home/leoni/robotica/tarea/exam3/build/interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leoni/robotica/tarea/exam3/build/interface -- -j16 -l16
+[0.689s] Invoking command in '/home/leoni/robotica/tarea/exam3/build/interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leoni/robotica/tarea/exam3/build/interface
+[0.696s] -- Install configuration: ""
+[0.697s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/ament_index/resource_index/rosidl_interfaces/interface
+[0.697s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface
+[0.697s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/msg
+[0.698s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/msg/rosidl_generator_c__visibility_control.h
+[0.698s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv
+[0.698s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail
+[0.699s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/angle__struct.h
+[0.699s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/angle__functions.c
+[0.699s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/angle__type_support.h
+[0.699s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/angle__functions.h
+[0.700s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/angle.h
+[0.700s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/environment/library_path.sh
+[0.700s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/environment/library_path.dsv
+[0.700s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/lib/libinterface__rosidl_generator_c.so
+[0.700s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface
+[0.701s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/msg
+[0.701s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.701s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv
+[0.701s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail
+[0.702s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/angle__rosidl_typesupport_fastrtps_c.h
+[0.702s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_c.so
+[0.702s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface
+[0.703s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/msg
+[0.703s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.703s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv
+[0.703s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail
+[0.704s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/angle__type_support.c
+[0.704s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/angle__rosidl_typesupport_introspection_c.h
+[0.705s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/lib/libinterface__rosidl_typesupport_introspection_c.so
+[0.705s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/lib/libinterface__rosidl_typesupport_c.so
+[0.705s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface
+[0.706s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/msg
+[0.706s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.706s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv
+[0.706s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/angle.hpp
+[0.706s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail
+[0.707s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/angle__struct.hpp
+[0.707s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/angle__type_support.hpp
+[0.707s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/angle__traits.hpp
+[0.708s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/angle__builder.hpp
+[0.708s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface
+[0.708s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/msg
+[0.708s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.709s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv
+[0.709s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail
+[0.709s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/angle__rosidl_typesupport_fastrtps_cpp.hpp
+[0.709s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/dds_fastrtps
+[0.709s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_cpp.so
+[0.710s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface
+[0.710s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv
+[0.710s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail
+[0.710s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/angle__rosidl_typesupport_introspection_cpp.hpp
+[0.710s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/angle__type_support.cpp
+[0.711s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/lib/libinterface__rosidl_typesupport_introspection_cpp.so
+[0.712s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/lib/libinterface__rosidl_typesupport_cpp.so
+[0.713s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/environment/pythonpath.sh
+[0.713s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/environment/pythonpath.dsv
+[0.713s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info
+[0.713s] -- Installing: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/top_level.txt
+[0.713s] -- Installing: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.714s] -- Installing: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/PKG-INFO
+[0.714s] -- Installing: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.714s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface
+[0.714s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.715s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_c.c
+[0.715s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/srv
+[0.715s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/srv/_angle.py
+[0.715s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/srv/_angle_s.c
+[0.715s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/srv/__init__.py
+[0.715s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/libinterface__rosidl_generator_py.so
+[0.715s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.715s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_introspection_c.c
+[0.715s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/__init__.py
+[0.715s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.715s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.746s] Listing '/home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface'...
+[0.746s] Listing '/home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/srv'...
+[0.752s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.753s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.753s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.753s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/lib/libinterface__rosidl_generator_py.so
+[0.753s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/srv/Angle.idl
+[0.753s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/srv/Angle.srv
+[0.754s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/srv/Angle_Request.msg
+[0.754s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/srv/Angle_Response.msg
+[0.754s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/ament_index/resource_index/package_run_dependencies/interface
+[0.754s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/ament_index/resource_index/parent_prefix_path/interface
+[0.754s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/environment/ament_prefix_path.sh
+[0.755s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/environment/ament_prefix_path.dsv
+[0.755s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/environment/path.sh
+[0.755s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/environment/path.dsv
+[0.755s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/local_setup.bash
+[0.755s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/local_setup.sh
+[0.755s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/local_setup.zsh
+[0.756s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/local_setup.dsv
+[0.756s] -- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/package.dsv
+[0.756s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/ament_index/resource_index/packages/interface
+[0.756s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/export_interface__rosidl_generator_cExport.cmake
+[0.756s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/export_interface__rosidl_generator_cExport-noconfig.cmake
+[0.757s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[0.757s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.758s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport.cmake
+[0.758s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.759s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport.cmake
+[0.759s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport-noconfig.cmake
+[0.759s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/export_interface__rosidl_generator_cppExport.cmake
+[0.760s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.760s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.761s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport.cmake
+[0.761s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.762s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport.cmake
+[0.762s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport-noconfig.cmake
+[0.762s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/export_interface__rosidl_generator_pyExport.cmake
+[0.763s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/export_interface__rosidl_generator_pyExport-noconfig.cmake
+[0.763s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/rosidl_cmake-extras.cmake
+[0.763s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.763s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/ament_cmake_export_libraries-extras.cmake
+[0.763s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/ament_cmake_export_targets-extras.cmake
+[0.763s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.763s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.763s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.763s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/interfaceConfig.cmake
+[0.763s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/interfaceConfig-version.cmake
+[0.764s] -- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/package.xml
+[0.766s] Invoked command in '/home/leoni/robotica/tarea/exam3/build/interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leoni/robotica/tarea/exam3/build/interface

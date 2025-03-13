@@ -1,0 +1,21 @@
+[0.995s] Invoking command in '/home/leoni/robotica/tarea/exam3/src/cliente': PYTHONPATH=/home/leoni/robotica/tarea/exam3/build/cliente/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/robotica/tarea/exam3/install/cliente/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cliente build --build-base /home/leoni/robotica/tarea/exam3/build/cliente/build install --record /home/leoni/robotica/tarea/exam3/build/cliente/install.log --single-version-externally-managed install_data
+[1.191s] running egg_info
+[1.191s] writing ../../build/cliente/cliente.egg-info/PKG-INFO
+[1.192s] writing dependency_links to ../../build/cliente/cliente.egg-info/dependency_links.txt
+[1.192s] writing entry points to ../../build/cliente/cliente.egg-info/entry_points.txt
+[1.192s] writing requirements to ../../build/cliente/cliente.egg-info/requires.txt
+[1.192s] writing top-level names to ../../build/cliente/cliente.egg-info/top_level.txt
+[1.193s] reading manifest file '../../build/cliente/cliente.egg-info/SOURCES.txt'
+[1.196s] writing manifest file '../../build/cliente/cliente.egg-info/SOURCES.txt'
+[1.196s] running build
+[1.196s] running build_py
+[1.196s] running install
+[1.196s] running install_lib
+[1.197s] running install_data
+[1.197s] running install_egg_info
+[1.198s] removing '/home/leoni/robotica/tarea/exam3/install/cliente/lib/python3.10/site-packages/cliente-0.0.0-py3.10.egg-info' (and everything under it)
+[1.199s] Copying ../../build/cliente/cliente.egg-info to /home/leoni/robotica/tarea/exam3/install/cliente/lib/python3.10/site-packages/cliente-0.0.0-py3.10.egg-info
+[1.200s] running install_scripts
+[1.221s] Installing cliente script to /home/leoni/robotica/tarea/exam3/install/cliente/lib/cliente
+[1.221s] writing list of installed files to '/home/leoni/robotica/tarea/exam3/build/cliente/install.log'
+[1.251s] Invoked command in '/home/leoni/robotica/tarea/exam3/src/cliente' returned '0': PYTHONPATH=/home/leoni/robotica/tarea/exam3/build/cliente/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/robotica/tarea/exam3/install/cliente/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cliente build --build-base /home/leoni/robotica/tarea/exam3/build/cliente/build install --record /home/leoni/robotica/tarea/exam3/build/cliente/install.log --single-version-externally-managed install_data

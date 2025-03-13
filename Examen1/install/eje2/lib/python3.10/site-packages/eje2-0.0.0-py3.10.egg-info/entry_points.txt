@@ -1,0 +1,7 @@
+[console_scripts]
+pub1 = eje2.pub1:main
+pub2 = eje2.pub2:main
+pub3 = eje2.pub3:main
+sub = eje2.sub:main
+sub_pub = eje2.sub_pub:main
+

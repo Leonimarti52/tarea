@@ -1,0 +1,4 @@
+[console_scripts]
+pub = eje1.pub:main
+sub = eje1.sub:main
+

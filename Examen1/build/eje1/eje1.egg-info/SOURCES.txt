@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/eje1/eje1.egg-info/PKG-INFO
+../../build/eje1/eje1.egg-info/SOURCES.txt
+../../build/eje1/eje1.egg-info/dependency_links.txt
+../../build/eje1/eje1.egg-info/entry_points.txt
+../../build/eje1/eje1.egg-info/requires.txt
+../../build/eje1/eje1.egg-info/top_level.txt
+../../build/eje1/eje1.egg-info/zip-safe
+eje1/__init__.py
+eje1/pub.py
+eje1/sub.py
+resource/eje1
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interface/srv/Angle.srv
+// generated code does not contain a copyright notice
+
+
+module interface {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct Angle_Request {
+      double theta1;
+
+      double theta2;
+
+      double theta3;
+
+      double theta4;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct Angle_Response {
+      double x;
+
+      double y;
+
+      double z;
+
+      double roll;
+
+      double pitch;
+
+      double yaw;
+    };
+  };
+};

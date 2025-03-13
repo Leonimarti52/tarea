@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/cliente/cliente.egg-info/PKG-INFO
+writing dependency_links to ../../build/cliente/cliente.egg-info/dependency_links.txt
+writing entry points to ../../build/cliente/cliente.egg-info/entry_points.txt
+writing requirements to ../../build/cliente/cliente.egg-info/requires.txt
+writing top-level names to ../../build/cliente/cliente.egg-info/top_level.txt
+reading manifest file '../../build/cliente/cliente.egg-info/SOURCES.txt'
+writing manifest file '../../build/cliente/cliente.egg-info/SOURCES.txt'
+running build
+running build_py
+copying cliente/cliente.py -> /home/leoni/robotica/tarea/exam3/build/cliente/build/lib/cliente
+running install
+running install_lib
+copying /home/leoni/robotica/tarea/exam3/build/cliente/build/lib/cliente/cliente.py -> /home/leoni/robotica/tarea/exam3/install/cliente/lib/python3.10/site-packages/cliente
+byte-compiling /home/leoni/robotica/tarea/exam3/install/cliente/lib/python3.10/site-packages/cliente/cliente.py to cliente.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/leoni/robotica/tarea/exam3/install/cliente/lib/python3.10/site-packages/cliente-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/cliente/cliente.egg-info to /home/leoni/robotica/tarea/exam3/install/cliente/lib/python3.10/site-packages/cliente-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cliente script to /home/leoni/robotica/tarea/exam3/install/cliente/lib/cliente
+writing list of installed files to '/home/leoni/robotica/tarea/exam3/build/cliente/install.log'

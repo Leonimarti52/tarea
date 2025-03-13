@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "interface__py",
+		"source" : "/home/leoni/robotica/tarea/exam3/build/interface/interface__py"
+	}
+}

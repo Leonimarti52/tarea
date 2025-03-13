@@ -1,0 +1,425 @@
+[0.000000] (-) TimerEvent: {}
+[0.001199] (cliente) JobQueued: {'identifier': 'cliente', 'dependencies': OrderedDict()}
+[0.001300] (interface) JobQueued: {'identifier': 'interface', 'dependencies': OrderedDict()}
+[0.001357] (servidor) JobQueued: {'identifier': 'servidor', 'dependencies': OrderedDict()}
+[0.001414] (cliente) JobStarted: {'identifier': 'cliente'}
+[0.061668] (interface) JobStarted: {'identifier': 'interface'}
+[0.069115] (servidor) JobStarted: {'identifier': 'servidor'}
+[0.099497] (-) TimerEvent: {}
+[0.199981] (-) TimerEvent: {}
+[0.300729] (-) TimerEvent: {}
+[0.359650] (interface) JobProgress: {'identifier': 'interface', 'progress': 'cmake'}
+[0.361301] (interface) Command: {'cmd': ['/usr/bin/cmake', '/home/leoni/robotica/tarea/exam3/src/interface', '-DCMAKE_INSTALL_PREFIX=/home/leoni/robotica/tarea/exam3/install/interface'], 'cwd': '/home/leoni/robotica/tarea/exam3/build/interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leoni'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/leoni'), ('OLDPWD', '/home/leoni/robotica/tarea/exam3/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'leoni'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/1089_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2022b/runtime/win64:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Users/leoni/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/leoni/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/leoni/AppData/Local/Programs/Ollama:/mnt/d/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/leoni/robotica/tarea/exam3/build/interface'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.400909] (-) TimerEvent: {}
+[0.501583] (-) TimerEvent: {}
+[0.602339] (-) TimerEvent: {}
+[0.702852] (-) TimerEvent: {}
+[0.735010] (interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.802922] (-) TimerEvent: {}
+[0.903310] (-) TimerEvent: {}
+[1.003771] (-) TimerEvent: {}
+[1.104366] (-) TimerEvent: {}
+[1.198627] (cliente) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/cliente', 'build', '--build-base', '/home/leoni/robotica/tarea/exam3/build/cliente/build', 'install', '--record', '/home/leoni/robotica/tarea/exam3/build/cliente/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/leoni/robotica/tarea/exam3/src/cliente', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'leoni', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/leoni', 'OLDPWD': '/home/leoni/robotica/tarea/exam3/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'leoni', 'NAME': 'MSI', 'WSL_INTEROP': '/run/WSL/1089_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2022b/runtime/win64:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Users/leoni/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/leoni/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/leoni/AppData/Local/Programs/Ollama:/mnt/d/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/leoni/robotica/tarea/exam3/build/cliente', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/leoni/robotica/tarea/exam3/build/cliente/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/robotica/tarea/exam3/install/cliente/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[1.206848] (-) TimerEvent: {}
+[1.207118] (servidor) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/servidor', 'build', '--build-base', '/home/leoni/robotica/tarea/exam3/build/servidor/build', 'install', '--record', '/home/leoni/robotica/tarea/exam3/build/servidor/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/leoni/robotica/tarea/exam3/src/servidor', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'leoni', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/leoni', 'OLDPWD': '/home/leoni/robotica/tarea/exam3/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'leoni', 'NAME': 'MSI', 'WSL_INTEROP': '/run/WSL/1089_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2022b/runtime/win64:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Users/leoni/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/leoni/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/leoni/AppData/Local/Programs/Ollama:/mnt/d/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/leoni/robotica/tarea/exam3/build/servidor', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/leoni/robotica/tarea/exam3/build/servidor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/robotica/tarea/exam3/install/servidor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[1.306954] (-) TimerEvent: {}
+[1.407317] (-) TimerEvent: {}
+[1.421323] (cliente) StdoutLine: {'line': b'running egg_info\n'}
+[1.422044] (cliente) StdoutLine: {'line': b'creating ../../build/cliente/cliente.egg-info\n'}
+[1.422404] (cliente) StdoutLine: {'line': b'writing ../../build/cliente/cliente.egg-info/PKG-INFO\n'}
+[1.422694] (cliente) StdoutLine: {'line': b'writing dependency_links to ../../build/cliente/cliente.egg-info/dependency_links.txt\n'}
+[1.423020] (cliente) StdoutLine: {'line': b'writing entry points to ../../build/cliente/cliente.egg-info/entry_points.txt\n'}
+[1.423215] (servidor) StdoutLine: {'line': b'running egg_info\n'}
+[1.423423] (cliente) StdoutLine: {'line': b'writing requirements to ../../build/cliente/cliente.egg-info/requires.txt\n'}
+[1.423577] (cliente) StdoutLine: {'line': b'writing top-level names to ../../build/cliente/cliente.egg-info/top_level.txt\n'}
+[1.423923] (servidor) StdoutLine: {'line': b'creating ../../build/servidor/servidor.egg-info\n'}
+[1.424202] (cliente) StdoutLine: {'line': b"writing manifest file '../../build/cliente/cliente.egg-info/SOURCES.txt'\n"}
+[1.424386] (servidor) StdoutLine: {'line': b'writing ../../build/servidor/servidor.egg-info/PKG-INFO\n'}
+[1.424683] (servidor) StdoutLine: {'line': b'writing dependency_links to ../../build/servidor/servidor.egg-info/dependency_links.txt\n'}
+[1.425021] (servidor) StdoutLine: {'line': b'writing entry points to ../../build/servidor/servidor.egg-info/entry_points.txt\n'}
+[1.425287] (servidor) StdoutLine: {'line': b'writing requirements to ../../build/servidor/servidor.egg-info/requires.txt\n'}
+[1.425449] (servidor) StdoutLine: {'line': b'writing top-level names to ../../build/servidor/servidor.egg-info/top_level.txt\n'}
+[1.425511] (servidor) StdoutLine: {'line': b"writing manifest file '../../build/servidor/servidor.egg-info/SOURCES.txt'\n"}
+[1.426119] (cliente) StdoutLine: {'line': b"reading manifest file '../../build/cliente/cliente.egg-info/SOURCES.txt'\n"}
+[1.427208] (cliente) StdoutLine: {'line': b"writing manifest file '../../build/cliente/cliente.egg-info/SOURCES.txt'\n"}
+[1.427474] (cliente) StdoutLine: {'line': b'running build\n'}
+[1.427583] (cliente) StdoutLine: {'line': b'running build_py\n'}
+[1.428060] (cliente) StdoutLine: {'line': b'creating /home/leoni/robotica/tarea/exam3/build/cliente/build\n'}
+[1.428304] (servidor) StdoutLine: {'line': b"reading manifest file '../../build/servidor/servidor.egg-info/SOURCES.txt'\n"}
+[1.428645] (cliente) StdoutLine: {'line': b'creating /home/leoni/robotica/tarea/exam3/build/cliente/build/lib\n'}
+[1.428934] (cliente) StdoutLine: {'line': b'creating /home/leoni/robotica/tarea/exam3/build/cliente/build/lib/cliente\n'}
+[1.429161] (cliente) StdoutLine: {'line': b'copying cliente/__init__.py -> /home/leoni/robotica/tarea/exam3/build/cliente/build/lib/cliente\n'}
+[1.429714] (cliente) StdoutLine: {'line': b'running install\n'}
+[1.429814] (cliente) StdoutLine: {'line': b'running install_lib\n'}
+[1.429991] (servidor) StdoutLine: {'line': b"writing manifest file '../../build/servidor/servidor.egg-info/SOURCES.txt'\n"}
+[1.430422] (servidor) StdoutLine: {'line': b'running build\n'}
+[1.430671] (servidor) StdoutLine: {'line': b'running build_py\n'}
+[1.430878] (servidor) StdoutLine: {'line': b'creating /home/leoni/robotica/tarea/exam3/build/servidor/build\n'}
+[1.431510] (servidor) StdoutLine: {'line': b'creating /home/leoni/robotica/tarea/exam3/build/servidor/build/lib\n'}
+[1.431943] (servidor) StdoutLine: {'line': b'creating /home/leoni/robotica/tarea/exam3/build/servidor/build/lib/servidor\n'}
+[1.432201] (servidor) StdoutLine: {'line': b'copying servidor/__init__.py -> /home/leoni/robotica/tarea/exam3/build/servidor/build/lib/servidor\n'}
+[1.432457] (servidor) StdoutLine: {'line': b'running install\n'}
+[1.432632] (servidor) StdoutLine: {'line': b'running install_lib\n'}
+[1.433103] (cliente) StdoutLine: {'line': b'creating /home/leoni/robotica/tarea/exam3/install/cliente/lib/python3.10/site-packages/cliente\n'}
+[1.434147] (cliente) StdoutLine: {'line': b'copying /home/leoni/robotica/tarea/exam3/build/cliente/build/lib/cliente/__init__.py -> /home/leoni/robotica/tarea/exam3/install/cliente/lib/python3.10/site-packages/cliente\n'}
+[1.434427] (servidor) StdoutLine: {'line': b'creating /home/leoni/robotica/tarea/exam3/install/servidor/lib/python3.10/site-packages/servidor\n'}
+[1.434877] (servidor) StdoutLine: {'line': b'copying /home/leoni/robotica/tarea/exam3/build/servidor/build/lib/servidor/__init__.py -> /home/leoni/robotica/tarea/exam3/install/servidor/lib/python3.10/site-packages/servidor\n'}
+[1.435009] (cliente) StdoutLine: {'line': b'byte-compiling /home/leoni/robotica/tarea/exam3/install/cliente/lib/python3.10/site-packages/cliente/__init__.py to __init__.cpython-310.pyc\n'}
+[1.435112] (servidor) StdoutLine: {'line': b'byte-compiling /home/leoni/robotica/tarea/exam3/install/servidor/lib/python3.10/site-packages/servidor/__init__.py to __init__.cpython-310.pyc\n'}
+[1.435206] (servidor) StdoutLine: {'line': b'running install_data\n'}
+[1.435299] (servidor) StdoutLine: {'line': b'creating /home/leoni/robotica/tarea/exam3/install/servidor/share/ament_index\n'}
+[1.435443] (servidor) StdoutLine: {'line': b'creating /home/leoni/robotica/tarea/exam3/install/servidor/share/ament_index/resource_index\n'}
+[1.435540] (servidor) StdoutLine: {'line': b'creating /home/leoni/robotica/tarea/exam3/install/servidor/share/ament_index/resource_index/packages\n'}
+[1.435639] (cliente) StdoutLine: {'line': b'running install_data\n'}
+[1.435821] (servidor) StdoutLine: {'line': b'copying resource/servidor -> /home/leoni/robotica/tarea/exam3/install/servidor/share/ament_index/resource_index/packages\n'}
+[1.435961] (servidor) StdoutLine: {'line': b'copying package.xml -> /home/leoni/robotica/tarea/exam3/install/servidor/share/servidor\n'}
+[1.436054] (servidor) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.436146] (cliente) StdoutLine: {'line': b'creating /home/leoni/robotica/tarea/exam3/install/cliente/share/ament_index\n'}
+[1.436251] (cliente) StdoutLine: {'line': b'creating /home/leoni/robotica/tarea/exam3/install/cliente/share/ament_index/resource_index\n'}
+[1.436335] (cliente) StdoutLine: {'line': b'creating /home/leoni/robotica/tarea/exam3/install/cliente/share/ament_index/resource_index/packages\n'}
+[1.436703] (cliente) StdoutLine: {'line': b'copying resource/cliente -> /home/leoni/robotica/tarea/exam3/install/cliente/share/ament_index/resource_index/packages\n'}
+[1.436832] (cliente) StdoutLine: {'line': b'copying package.xml -> /home/leoni/robotica/tarea/exam3/install/cliente/share/cliente\n'}
+[1.436931] (cliente) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.437099] (cliente) StdoutLine: {'line': b'Copying ../../build/cliente/cliente.egg-info to /home/leoni/robotica/tarea/exam3/install/cliente/lib/python3.10/site-packages/cliente-0.0.0-py3.10.egg-info\n'}
+[1.437780] (cliente) StdoutLine: {'line': b'running install_scripts\n'}
+[1.438224] (servidor) StdoutLine: {'line': b'Copying ../../build/servidor/servidor.egg-info to /home/leoni/robotica/tarea/exam3/install/servidor/lib/python3.10/site-packages/servidor-0.0.0-py3.10.egg-info\n'}
+[1.438983] (servidor) StdoutLine: {'line': b'running install_scripts\n'}
+[1.461041] (cliente) StdoutLine: {'line': b"writing list of installed files to '/home/leoni/robotica/tarea/exam3/build/cliente/install.log'\n"}
+[1.461900] (servidor) StdoutLine: {'line': b"writing list of installed files to '/home/leoni/robotica/tarea/exam3/build/servidor/install.log'\n"}
+[1.485355] (cliente) CommandEnded: {'returncode': 0}
+[1.503534] (cliente) JobEnded: {'identifier': 'cliente', 'rc': 0}
+[1.506717] (servidor) CommandEnded: {'returncode': 0}
+[1.507404] (-) TimerEvent: {}
+[1.513935] (servidor) JobEnded: {'identifier': 'servidor', 'rc': 0}
+[1.607632] (-) TimerEvent: {}
+[1.708215] (-) TimerEvent: {}
+[1.808712] (-) TimerEvent: {}
+[1.909223] (-) TimerEvent: {}
+[1.973179] (interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.009414] (-) TimerEvent: {}
+[2.109992] (-) TimerEvent: {}
+[2.210494] (-) TimerEvent: {}
+[2.310872] (-) TimerEvent: {}
+[2.411319] (-) TimerEvent: {}
+[2.512349] (-) TimerEvent: {}
+[2.612871] (-) TimerEvent: {}
+[2.713378] (-) TimerEvent: {}
+[2.814034] (-) TimerEvent: {}
+[2.861328] (interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.914173] (-) TimerEvent: {}
+[3.014989] (-) TimerEvent: {}
+[3.115722] (-) TimerEvent: {}
+[3.216268] (-) TimerEvent: {}
+[3.317070] (interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.317273] (-) TimerEvent: {}
+[3.323129] (interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.361071] (interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.363494] (interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.372155] (interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.417448] (-) TimerEvent: {}
+[3.517900] (-) TimerEvent: {}
+[3.618601] (-) TimerEvent: {}
+[3.719681] (-) TimerEvent: {}
+[3.820630] (-) TimerEvent: {}
+[3.849547] (interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.856667] (interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.857135] (interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.857501] (interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.863557] (interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.920772] (-) TimerEvent: {}
+[4.021208] (-) TimerEvent: {}
+[4.044779] (interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.121350] (-) TimerEvent: {}
+[4.221955] (-) TimerEvent: {}
+[4.254236] (interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[4.261899] (interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.275228] (interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.322045] (-) TimerEvent: {}
+[4.422430] (-) TimerEvent: {}
+[4.522958] (-) TimerEvent: {}
+[4.623473] (-) TimerEvent: {}
+[4.679051] (interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.723587] (-) TimerEvent: {}
+[4.823965] (-) TimerEvent: {}
+[4.924380] (-) TimerEvent: {}
+[5.025076] (-) TimerEvent: {}
+[5.095994] (interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.125401] (-) TimerEvent: {}
+[5.226076] (-) TimerEvent: {}
+[5.311610] (interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.326200] (-) TimerEvent: {}
+[5.426599] (-) TimerEvent: {}
+[5.527068] (-) TimerEvent: {}
+[5.545185] (interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.627281] (-) TimerEvent: {}
+[5.727994] (-) TimerEvent: {}
+[5.828927] (-) TimerEvent: {}
+[5.929859] (-) TimerEvent: {}
+[6.012510] (interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[6.029935] (-) TimerEvent: {}
+[6.057313] (interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.130155] (-) TimerEvent: {}
+[6.230641] (-) TimerEvent: {}
+[6.331232] (-) TimerEvent: {}
+[6.431975] (-) TimerEvent: {}
+[6.532903] (-) TimerEvent: {}
+[6.633748] (-) TimerEvent: {}
+[6.734395] (-) TimerEvent: {}
+[6.835211] (-) TimerEvent: {}
+[6.935779] (-) TimerEvent: {}
+[7.036412] (-) TimerEvent: {}
+[7.137252] (-) TimerEvent: {}
+[7.180819] (interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[7.181161] (interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.181291] (interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[7.181374] (interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[7.202660] (interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[7.237335] (-) TimerEvent: {}
+[7.337796] (-) TimerEvent: {}
+[7.401451] (interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.438085] (-) TimerEvent: {}
+[7.470472] (interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.473762] (interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.479616] (interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.522969] (interface) StdoutLine: {'line': b'-- Generating done\n'}
+[7.536288] (interface) StdoutLine: {'line': b'-- Build files have been written to: /home/leoni/robotica/tarea/exam3/build/interface\n'}
+[7.538305] (-) TimerEvent: {}
+[7.543814] (interface) CommandEnded: {'returncode': 0}
+[7.545003] (interface) JobProgress: {'identifier': 'interface', 'progress': 'build'}
+[7.546784] (interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/leoni/robotica/tarea/exam3/build/interface', '--', '-j16', '-l16'], 'cwd': '/home/leoni/robotica/tarea/exam3/build/interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leoni'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/leoni'), ('OLDPWD', '/home/leoni/robotica/tarea/exam3/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'leoni'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/1089_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2022b/runtime/win64:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Users/leoni/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/leoni/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/leoni/AppData/Local/Programs/Ollama:/mnt/d/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/leoni/robotica/tarea/exam3/build/interface'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.581644] (interface) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.595801] (interface) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.603100] (interface) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_interface\n'}
+[7.638486] (-) TimerEvent: {}
+[7.738915] (-) TimerEvent: {}
+[7.839282] (-) TimerEvent: {}
+[7.852313] (interface) StdoutLine: {'line': b'running egg_info\n'}
+[7.852849] (interface) StdoutLine: {'line': b'creating interface.egg-info\n'}
+[7.853378] (interface) StdoutLine: {'line': b'writing interface.egg-info/PKG-INFO\n'}
+[7.853505] (interface) StdoutLine: {'line': b'writing dependency_links to interface.egg-info/dependency_links.txt\n'}
+[7.853757] (interface) StdoutLine: {'line': b'writing top-level names to interface.egg-info/top_level.txt\n'}
+[7.854122] (interface) StdoutLine: {'line': b"writing manifest file 'interface.egg-info/SOURCES.txt'\n"}
+[7.855686] (interface) StdoutLine: {'line': b"reading manifest file 'interface.egg-info/SOURCES.txt'\n"}
+[7.856153] (interface) StdoutLine: {'line': b"writing manifest file 'interface.egg-info/SOURCES.txt'\n"}
+[7.880092] (interface) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_interface_egg\n'}
+[7.939408] (-) TimerEvent: {}
+[7.979849] (interface) StdoutLine: {'line': b'[  6%] Built target interface__cpp\n'}
+[7.988422] (interface) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/srv/detail/angle__functions.c.o\x1b[0m\n'}
+[7.988792] (interface) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.989248] (interface) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.989976] (interface) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.039546] (-) TimerEvent: {}
+[8.113639] (interface) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libinterface__rosidl_generator_c.so\x1b[0m\n'}
+[8.139828] (-) TimerEvent: {}
+[8.240309] (-) TimerEvent: {}
+[8.330631] (interface) StdoutLine: {'line': b'[ 22%] Built target interface__rosidl_generator_c\n'}
+[8.340493] (-) TimerEvent: {}
+[8.341756] (interface) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.342077] (interface) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.342855] (interface) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.343048] (interface) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/srv/angle__type_support.cpp.o\x1b[0m\n'}
+[8.379823] (interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface/srv/detail/angle__type_support.cpp.o\x1b[0m\n'}
+[8.400572] (interface) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface/srv/detail/dds_fastrtps/angle__type_support.cpp.o\x1b[0m\n'}
+[8.440609] (-) TimerEvent: {}
+[8.541059] (-) TimerEvent: {}
+[8.641628] (-) TimerEvent: {}
+[8.704544] (interface) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface/srv/angle__type_support.cpp.o\x1b[0m\n'}
+[8.735497] (interface) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface/srv/detail/angle__type_support.c.o\x1b[0m\n'}
+[8.741250] (interface) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libinterface__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.742002] (-) TimerEvent: {}
+[8.780174] (interface) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library libinterface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.789386] (interface) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libinterface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.790573] (interface) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface/srv/detail/angle__type_support_c.cpp.o\x1b[0m\n'}
+[8.842199] (-) TimerEvent: {}
+[8.942703] (-) TimerEvent: {}
+[8.948483] (interface) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libinterface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.949076] (interface) StdoutLine: {'line': b'[ 64%] Built target interface__rosidl_typesupport_introspection_c\n'}
+[8.961981] (interface) StdoutLine: {'line': b'[ 64%] Built target interface__rosidl_typesupport_c\n'}
+[8.964368] (interface) StdoutLine: {'line': b'[ 64%] Built target interface__rosidl_typesupport_cpp\n'}
+[9.016176] (interface) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libinterface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.042827] (-) TimerEvent: {}
+[9.100109] (interface) StdoutLine: {'line': b'[ 67%] Built target interface__rosidl_typesupport_introspection_cpp\n'}
+[9.142933] (-) TimerEvent: {}
+[9.172622] (interface) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libinterface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.199464] (interface) StdoutLine: {'line': b'[ 70%] Built target interface__rosidl_typesupport_fastrtps_cpp\n'}
+[9.242995] (-) TimerEvent: {}
+[9.343473] (-) TimerEvent: {}
+[9.444176] (-) TimerEvent: {}
+[9.527256] (interface) StdoutLine: {'line': b'[ 70%] Built target interface__rosidl_typesupport_fastrtps_c\n'}
+[9.544275] (-) TimerEvent: {}
+[9.547968] (interface) StdoutLine: {'line': b'[ 70%] Built target interface\n'}
+[9.563616] (interface) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.644369] (-) TimerEvent: {}
+[9.744778] (-) TimerEvent: {}
+[9.845160] (-) TimerEvent: {}
+[9.945684] (-) TimerEvent: {}
+[10.046288] (-) TimerEvent: {}
+[10.118427] (interface) StdoutLine: {'line': b'[ 74%] Built target interface__py\n'}
+[10.136615] (interface) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_angle_s.c.o\x1b[0m\n'}
+[10.146379] (-) TimerEvent: {}
+[10.246819] (-) TimerEvent: {}
+[10.347803] (-) TimerEvent: {}
+[10.437596] (interface) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface/libinterface__rosidl_generator_py.so\x1b[0m\n'}
+[10.447994] (-) TimerEvent: {}
+[10.548694] (-) TimerEvent: {}
+[10.649474] (-) TimerEvent: {}
+[10.750172] (-) TimerEvent: {}
+[10.761880] (interface) StdoutLine: {'line': b'[ 80%] Built target interface__rosidl_generator_py\n'}
+[10.780316] (interface) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.780699] (interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.781507] (interface) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.850336] (-) TimerEvent: {}
+[10.876006] (interface) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.876289] (interface) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.883911] (interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.950454] (-) TimerEvent: {}
+[11.023786] (interface) StdoutLine: {'line': b'[100%] Built target interface__rosidl_typesupport_c__pyext\n'}
+[11.025629] (interface) StdoutLine: {'line': b'[100%] Built target interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.050554] (-) TimerEvent: {}
+[11.099335] (interface) StdoutLine: {'line': b'[100%] Built target interface__rosidl_typesupport_introspection_c__pyext\n'}
+[11.109311] (interface) CommandEnded: {'returncode': 0}
+[11.110949] (interface) JobProgress: {'identifier': 'interface', 'progress': 'install'}
+[11.119100] (interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/leoni/robotica/tarea/exam3/build/interface'], 'cwd': '/home/leoni/robotica/tarea/exam3/build/interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leoni'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/leoni'), ('OLDPWD', '/home/leoni/robotica/tarea/exam3/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'leoni'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/1089_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2022b/runtime/win64:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Users/leoni/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/leoni/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/leoni/AppData/Local/Programs/Ollama:/mnt/d/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/leoni/robotica/tarea/exam3/build/interface'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.126402] (interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.127067] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/ament_index/resource_index/rosidl_interfaces/interface\n'}
+[11.127538] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface\n'}
+[11.127819] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/msg\n'}
+[11.128203] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.128359] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv\n'}
+[11.128570] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail\n'}
+[11.128955] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/angle__struct.h\n'}
+[11.129185] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/angle__functions.c\n'}
+[11.129493] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/angle__type_support.h\n'}
+[11.129774] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/angle__functions.h\n'}
+[11.129884] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/angle.h\n'}
+[11.129976] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/environment/library_path.sh\n'}
+[11.130140] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/environment/library_path.dsv\n'}
+[11.130234] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/lib/libinterface__rosidl_generator_c.so\n'}
+[11.130619] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/leoni/robotica/tarea/exam3/install/interface/lib/libinterface__rosidl_generator_c.so" to ""\n'}
+[11.130873] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface\n'}
+[11.131217] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/msg\n'}
+[11.131461] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.131861] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv\n'}
+[11.131979] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail\n'}
+[11.132183] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/angle__rosidl_typesupport_fastrtps_c.h\n'}
+[11.132532] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_c.so\n'}
+[11.132773] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/leoni/robotica/tarea/exam3/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.132876] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface\n'}
+[11.133087] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/msg\n'}
+[11.133323] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.133543] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv\n'}
+[11.133910] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail\n'}
+[11.134119] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/angle__type_support.c\n'}
+[11.134289] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/angle__rosidl_typesupport_introspection_c.h\n'}
+[11.134396] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/lib/libinterface__rosidl_typesupport_introspection_c.so\n'}
+[11.134503] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/leoni/robotica/tarea/exam3/install/interface/lib/libinterface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.134586] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/lib/libinterface__rosidl_typesupport_c.so\n'}
+[11.134667] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/leoni/robotica/tarea/exam3/install/interface/lib/libinterface__rosidl_typesupport_c.so" to ""\n'}
+[11.134746] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface\n'}
+[11.134827] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/msg\n'}
+[11.134940] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[11.135024] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv\n'}
+[11.135115] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/angle.hpp\n'}
+[11.135366] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail\n'}
+[11.135560] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/angle__struct.hpp\n'}
+[11.135765] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/angle__type_support.hpp\n'}
+[11.136007] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/angle__traits.hpp\n'}
+[11.136218] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/angle__builder.hpp\n'}
+[11.136404] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface\n'}
+[11.136589] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/msg\n'}
+[11.136779] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.136973] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv\n'}
+[11.137158] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail\n'}
+[11.137363] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/angle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.137558] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/dds_fastrtps\n'}
+[11.137753] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.137959] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/leoni/robotica/tarea/exam3/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.138161] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface\n'}
+[11.138371] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv\n'}
+[11.138568] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail\n'}
+[11.138781] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/angle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.138989] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/include/interface/interface/srv/detail/angle__type_support.cpp\n'}
+[11.139455] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/lib/libinterface__rosidl_typesupport_introspection_cpp.so\n'}
+[11.139818] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/leoni/robotica/tarea/exam3/install/interface/lib/libinterface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.140149] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/lib/libinterface__rosidl_typesupport_cpp.so\n'}
+[11.140280] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/leoni/robotica/tarea/exam3/install/interface/lib/libinterface__rosidl_typesupport_cpp.so" to ""\n'}
+[11.140365] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/environment/pythonpath.sh\n'}
+[11.140417] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/environment/pythonpath.dsv\n'}
+[11.140485] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info\n'}
+[11.140566] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[11.140643] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[11.140752] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[11.140833] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[11.140927] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface\n'}
+[11.141101] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.141214] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_c.c\n'}
+[11.141350] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/srv\n'}
+[11.141453] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/srv/_angle.py\n'}
+[11.141605] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/srv/_angle_s.c\n'}
+[11.141736] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/srv/__init__.py\n'}
+[11.141830] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/libinterface__rosidl_generator_py.so\n'}
+[11.141909] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.141995] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.142074] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/__init__.py\n'}
+[11.142153] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.142230] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.150701] (-) TimerEvent: {}
+[11.176747] (interface) StdoutLine: {'line': b"Listing '/home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface'...\n"}
+[11.177023] (interface) StdoutLine: {'line': b"Compiling '/home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/__init__.py'...\n"}
+[11.177084] (interface) StdoutLine: {'line': b"Listing '/home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/srv'...\n"}
+[11.177139] (interface) StdoutLine: {'line': b"Compiling '/home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/srv/__init__.py'...\n"}
+[11.177190] (interface) StdoutLine: {'line': b"Compiling '/home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/srv/_angle.py'...\n"}
+[11.180994] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.181332] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.181562] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.181822] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.181907] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.182028] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/leoni/robotica/tarea/exam3/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.182156] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/lib/libinterface__rosidl_generator_py.so\n'}
+[11.182386] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/leoni/robotica/tarea/exam3/install/interface/lib/libinterface__rosidl_generator_py.so" to ""\n'}
+[11.182570] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/srv/Angle.idl\n'}
+[11.182698] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/srv/Angle.srv\n'}
+[11.182825] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/srv/Angle_Request.msg\n'}
+[11.182974] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/srv/Angle_Response.msg\n'}
+[11.183219] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/ament_index/resource_index/package_run_dependencies/interface\n'}
+[11.183448] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/ament_index/resource_index/parent_prefix_path/interface\n'}
+[11.183608] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/environment/ament_prefix_path.sh\n'}
+[11.183746] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/environment/ament_prefix_path.dsv\n'}
+[11.183885] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/environment/path.sh\n'}
+[11.184002] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/environment/path.dsv\n'}
+[11.184122] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/local_setup.bash\n'}
+[11.184258] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/local_setup.sh\n'}
+[11.184392] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/local_setup.zsh\n'}
+[11.184524] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/local_setup.dsv\n'}
+[11.184644] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/package.dsv\n'}
+[11.184900] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/ament_index/resource_index/packages/interface\n'}
+[11.185138] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/export_interface__rosidl_generator_cExport.cmake\n'}
+[11.185300] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/export_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.185486] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.185622] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.185758] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.185881] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.186026] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport.cmake\n'}
+[11.186157] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.186414] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/export_interface__rosidl_generator_cppExport.cmake\n'}
+[11.186618] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.186905] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.187080] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.187362] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.187601] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport.cmake\n'}
+[11.187825] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.188040] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/export_interface__rosidl_generator_pyExport.cmake\n'}
+[11.188356] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/export_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.188761] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/rosidl_cmake-extras.cmake\n'}
+[11.188889] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.189116] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.189338] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.189562] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.189809] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.189907] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.190002] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/interfaceConfig.cmake\n'}
+[11.190090] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/cmake/interfaceConfig-version.cmake\n'}
+[11.190274] (interface) StdoutLine: {'line': b'-- Installing: /home/leoni/robotica/tarea/exam3/install/interface/share/interface/package.xml\n'}
+[11.192525] (interface) CommandEnded: {'returncode': 0}
+[11.212937] (interface) JobEnded: {'identifier': 'interface', 'rc': 0}
+[11.214909] (-) EventReactorShutdown: {}

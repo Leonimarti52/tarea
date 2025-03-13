@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/servidor/servidor.egg-info/PKG-INFO
+writing dependency_links to ../../build/servidor/servidor.egg-info/dependency_links.txt
+writing entry points to ../../build/servidor/servidor.egg-info/entry_points.txt
+writing requirements to ../../build/servidor/servidor.egg-info/requires.txt
+writing top-level names to ../../build/servidor/servidor.egg-info/top_level.txt
+reading manifest file '../../build/servidor/servidor.egg-info/SOURCES.txt'
+writing manifest file '../../build/servidor/servidor.egg-info/SOURCES.txt'
+running build
+running build_py
+copying servidor/servidor.py -> /home/leoni/robotica/tarea/exam3/build/servidor/build/lib/servidor
+running install
+running install_lib
+copying /home/leoni/robotica/tarea/exam3/build/servidor/build/lib/servidor/servidor.py -> /home/leoni/robotica/tarea/exam3/install/servidor/lib/python3.10/site-packages/servidor
+byte-compiling /home/leoni/robotica/tarea/exam3/install/servidor/lib/python3.10/site-packages/servidor/servidor.py to servidor.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/leoni/robotica/tarea/exam3/install/servidor/lib/python3.10/site-packages/servidor-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/servidor/servidor.egg-info to /home/leoni/robotica/tarea/exam3/install/servidor/lib/python3.10/site-packages/servidor-0.0.0-py3.10.egg-info
+running install_scripts
+Installing servidor script to /home/leoni/robotica/tarea/exam3/install/servidor/lib/servidor
+writing list of installed files to '/home/leoni/robotica/tarea/exam3/build/servidor/install.log'

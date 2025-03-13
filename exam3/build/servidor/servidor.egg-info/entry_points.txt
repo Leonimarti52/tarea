@@ -1,0 +1,3 @@
+[console_scripts]
+servidor = servidor.servidor:main
+

@@ -1,0 +1,6 @@
+Invoking command in '/home/leoni/robotica/tarea/exam3/build/interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leoni/robotica/tarea/exam3/src/interface -DCMAKE_INSTALL_PREFIX=/home/leoni/robotica/tarea/exam3/install/interface
+Invoked command in '/home/leoni/robotica/tarea/exam3/build/interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leoni/robotica/tarea/exam3/src/interface -DCMAKE_INSTALL_PREFIX=/home/leoni/robotica/tarea/exam3/install/interface
+Invoking command in '/home/leoni/robotica/tarea/exam3/build/interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leoni/robotica/tarea/exam3/build/interface -- -j16 -l16
+Invoked command in '/home/leoni/robotica/tarea/exam3/build/interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leoni/robotica/tarea/exam3/build/interface -- -j16 -l16
+Invoking command in '/home/leoni/robotica/tarea/exam3/build/interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leoni/robotica/tarea/exam3/build/interface
+Invoked command in '/home/leoni/robotica/tarea/exam3/build/interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leoni/robotica/tarea/exam3/build/interface

@@ -1,0 +1,3 @@
+[console_scripts]
+cliente = cliente.cliente:main
+

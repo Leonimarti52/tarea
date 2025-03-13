@@ -1,0 +1,33 @@
+[1.139s] Invoking command in '/home/leoni/robotica/tarea/exam3/src/servidor': PYTHONPATH=/home/leoni/robotica/tarea/exam3/build/servidor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/robotica/tarea/exam3/install/servidor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servidor build --build-base /home/leoni/robotica/tarea/exam3/build/servidor/build install --record /home/leoni/robotica/tarea/exam3/build/servidor/install.log --single-version-externally-managed install_data
+[1.354s] running egg_info
+[1.354s] creating ../../build/servidor/servidor.egg-info
+[1.355s] writing ../../build/servidor/servidor.egg-info/PKG-INFO
+[1.355s] writing dependency_links to ../../build/servidor/servidor.egg-info/dependency_links.txt
+[1.356s] writing entry points to ../../build/servidor/servidor.egg-info/entry_points.txt
+[1.356s] writing requirements to ../../build/servidor/servidor.egg-info/requires.txt
+[1.356s] writing top-level names to ../../build/servidor/servidor.egg-info/top_level.txt
+[1.356s] writing manifest file '../../build/servidor/servidor.egg-info/SOURCES.txt'
+[1.359s] reading manifest file '../../build/servidor/servidor.egg-info/SOURCES.txt'
+[1.361s] writing manifest file '../../build/servidor/servidor.egg-info/SOURCES.txt'
+[1.361s] running build
+[1.361s] running build_py
+[1.361s] creating /home/leoni/robotica/tarea/exam3/build/servidor/build
+[1.362s] creating /home/leoni/robotica/tarea/exam3/build/servidor/build/lib
+[1.362s] creating /home/leoni/robotica/tarea/exam3/build/servidor/build/lib/servidor
+[1.363s] copying servidor/__init__.py -> /home/leoni/robotica/tarea/exam3/build/servidor/build/lib/servidor
+[1.363s] running install
+[1.363s] running install_lib
+[1.365s] creating /home/leoni/robotica/tarea/exam3/install/servidor/lib/python3.10/site-packages/servidor
+[1.365s] copying /home/leoni/robotica/tarea/exam3/build/servidor/build/lib/servidor/__init__.py -> /home/leoni/robotica/tarea/exam3/install/servidor/lib/python3.10/site-packages/servidor
+[1.366s] byte-compiling /home/leoni/robotica/tarea/exam3/install/servidor/lib/python3.10/site-packages/servidor/__init__.py to __init__.cpython-310.pyc
+[1.366s] running install_data
+[1.366s] creating /home/leoni/robotica/tarea/exam3/install/servidor/share/ament_index
+[1.366s] creating /home/leoni/robotica/tarea/exam3/install/servidor/share/ament_index/resource_index
+[1.366s] creating /home/leoni/robotica/tarea/exam3/install/servidor/share/ament_index/resource_index/packages
+[1.366s] copying resource/servidor -> /home/leoni/robotica/tarea/exam3/install/servidor/share/ament_index/resource_index/packages
+[1.366s] copying package.xml -> /home/leoni/robotica/tarea/exam3/install/servidor/share/servidor
+[1.366s] running install_egg_info
+[1.369s] Copying ../../build/servidor/servidor.egg-info to /home/leoni/robotica/tarea/exam3/install/servidor/lib/python3.10/site-packages/servidor-0.0.0-py3.10.egg-info
+[1.369s] running install_scripts
+[1.392s] writing list of installed files to '/home/leoni/robotica/tarea/exam3/build/servidor/install.log'
+[1.437s] Invoked command in '/home/leoni/robotica/tarea/exam3/src/servidor' returned '0': PYTHONPATH=/home/leoni/robotica/tarea/exam3/build/servidor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/robotica/tarea/exam3/install/servidor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servidor build --build-base /home/leoni/robotica/tarea/exam3/build/servidor/build install --record /home/leoni/robotica/tarea/exam3/build/servidor/install.log --single-version-externally-managed install_data

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/cliente/cliente.egg-info/PKG-INFO
+../../build/cliente/cliente.egg-info/SOURCES.txt
+../../build/cliente/cliente.egg-info/dependency_links.txt
+../../build/cliente/cliente.egg-info/entry_points.txt
+../../build/cliente/cliente.egg-info/requires.txt
+../../build/cliente/cliente.egg-info/top_level.txt
+../../build/cliente/cliente.egg-info/zip-safe
+cliente/__init__.py
+cliente/cliente.py
+resource/cliente
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
